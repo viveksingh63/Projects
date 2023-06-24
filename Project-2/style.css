@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Oswald:wght@500&family=Poppins:wght@200;300;400&display=swap');
+
+
+
+body {
+    /* font-family: 'Kaisei Tokumin', serif; */
+font-family: 'Oswald', sans-serif;
+/* font-family: 'Poppins', sans-serif; */
+}
+
+
+.container-fluid {
+    background-image: url(/Project-2/img/mountain.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.container h1 {
+    font-size: 2.8rem;
+    color: black;
+}
+
+.setting{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.setting .fa-cog{
+    font-size: 2rem;
+    color: white;
+}
+
+.setting-content{
+    display: flex;
+    gap: 1rem;
+}
+
+.setting-content input{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.hide{
+    display: none;
+}
+
+.time-container{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-container h2{
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    line-height: 60px;
+}
+
+.time-container div{
+    font-size: 4rem;
+    color: white;
+}
