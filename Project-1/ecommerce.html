@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attire Home</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+        <div class="container">
+            <a href="/ecommerce.html" class="navbar-brand d-flex justify-content-between align-items-center order-lg-0">
+                <img src="/img/icons8-ecommerce-64.png" alt="site icon">
+                <span class="text-uppercase fw-lighter ms-2">Attire</span>
+            </a>
+            <div class="order-lg-2 nav-btns">
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge primary">5</span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-heart"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge primary">2</span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-search"></i>
+
+                </button>
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center ">
+                    <li class="nav-item px-2 py-2">
+                        <a href="#header" class="nav-link text-uppercase text-dark">Home</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a href="#collection" class="nav-link text-uppercase text-dark">Collection</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a href="#special" class="nav-link text-uppercase text-dark">Specials</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a href="#blogs" class="nav-link text-uppercase text-dark">Blogs</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a href="#about" class="nav-link text-uppercase text-dark">About us</a>
+                    </li>
+                    <li class="nav-item px-2 py-2 border-0">
+                        <a href="#popular" class="nav-link text-uppercase text-dark">Popular</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="header" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top: 104px;">
+        <div class="container h-100 d-flex align-items-center carousel-inner">
+            <div class="text-center carousel-item active">
+                <h2 class="text-capitalize text-white">best collection</h2>
+                <h1 class="text-uppercase py-2 fw-bold text-white">new arrivals</h1>
+                <a href="#" class="btn mt-3 text-uppercase">shop now</a>
+            </div>
+            <div class="text-center carousel-item">
+                <h2 class="text-capitalize text-white">best price & offer</h2>
+                <h1 class="text-uppercase py-2 fw-bold text-white">new season</h1>
+                <a href="#" class="btn mt-3 text-uppercase">buy now</a>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </header>
+
+
+    <section id="collection" class="py-5">
+        <div class="container">
+            <div class="title text-center">
+                <h2 class="position-relative d-inline-block">New Collection</h2>
+            </div>
+            <div class="row">
+                <div class="d-flex flex-wrap justify-content-center mt-5">
+                    <button type="button" class="btn m-2 text-dark active-filter-btn">All</button>
+                    <button type="button" class="btn m-2 text-dark">Best Sellers</button>
+                    <button type="button" class="btn m-2 text-dark">Featured</button>
+                    <button type="button" class="btn m-2 text-dark">New Arrival</button>
+
+                </div>
+
+                <!-- <div class="collection-list mt-4">
+                    <div class="">
+                        <div class="collection-img position-relative">
+                            <img class="w-100" src="https://5.imimg.com/data5/SELLER/Default/2022/1/US/AN/IE/2985467/tops-500x500.jpg" alt="">
+                            <span class="position-absolute primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating">
+                                <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                <span class="text-primary"><i class=" fas fa-star"></i></span>
+                            </div>
+                            <p class="">off white top</p>
+                            <span class="">Rs. 500</span>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="row">
+                    <div class="col-md-4" style="padding-top: 30px;">
+                        <div class="card" style="width: 20rem;">
+                            <img src="https://5.imimg.com/data5/SELLER/Default/2022/1/US/AN/IE/2985467/tops-500x500.jpg"
+                                style="height: 300px;" alt="" class="card-img-top">
+                            <span
+                                class="position-absolute primary text-white d-flex align-items-center justify-content-center">sale</span>
+
+                            <div class="card-body">
+                                <div class="card-title"></div>
+                                <div class="text-center">
+                                    <div class="rating">
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                    </div>
+                                    <p class="text-capitalize my-1">off white top</p>
+                                    <span class="fw-bold">Rs. 500</span>
+
+                                </div>
+                                <button class="btn d-flex justify-content-center align-items-center"
+                                    style="margin-left: 100px;">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" style="padding-top: 30px;">
+                        <div class="card" style="width: 20rem;">
+                            <img src="https://m.media-amazon.com/images/I/61udBnXDSAL._AC_UY1100_.jpg"
+                                style="height: 300px;" alt="" class="card-img-top">
+                            <span
+                                class="position-absolute primary text-white d-flex align-items-center justify-content-center">sale</span>
+
+                            <div class="card-body">
+                                <div class="card-title"></div>
+                                <div class="text-center">
+                                    <div class="rating">
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                    </div>
+                                    <p class="text-capitalize my-1">off white top</p>
+                                    <span class="fw-bold">Rs. 500</span>
+
+                                </div>
+                                <a href="#" class="btn btn-info" style="margin-left: 100px;">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" style="padding-top: 30px;">
+                        <div class="card" style="width: 20rem;">
+                            <img src="https://m.media-amazon.com/images/I/61jinGEhb6L._AC_SX466_.jpg"
+                            style="height: 300px;"  alt="" class="card-img-top">
+                            <span
+                                class="position-absolute primary text-white d-flex align-items-center justify-content-center">sale</span>
+
+                            <div class="card-body">
+                                <div class="card-title"></div>
+                                <div class="text-center">
+                                    <div class="rating">
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                    </div>
+                                    <p class="text-capitalize my-1">off white top</p>
+                                    <span class="fw-bold">Rs. 500</span>
+
+                                </div>
+                                <a href="#" class="btn btn-info" style="margin-left: 100px;">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" style="padding-top: 30px;">
+                        <div class="card" style="width: 20rem;">
+                            <img src="https://i5.walmartimages.com/asr/1d655779-93dc-4de7-9398-7a3336722b51.eee3c9df393995e0f9e69f23eb560aaa.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+                            style="height: 300px;"  alt="" class="card-img-top">
+                            <span
+                                class="position-absolute primary text-white d-flex align-items-center justify-content-center">sale</span>
+
+                            <div class="card-body">
+                                <div class="card-title"></div>
+                                <div class="text-center">
+                                    <div class="rating">
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                    </div>
+                                    <p class="text-capitalize my-1">off white top</p>
+                                    <span class="fw-bold">Rs. 500</span>
+
+                                </div>
+                                <a href="#" class="btn btn-info" style="margin-left: 100px;">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" style="padding-top: 30px;">
+                        <div class="card" style="width: 20rem;">
+                            <img src="https://i5.walmartimages.com/asr/2f325f52-a6a6-4f17-94b7-ae2dba4a3d13.6a9650664020311c93ac8df441ab525e.jpeg"
+                            style="height: 300px;"   alt="" class="card-img-top">
+                            <span
+                                class="position-absolute primary text-white d-flex align-items-center justify-content-center">sale</span>
+
+                            <div class="card-body">
+                                <div class="card-title"></div>
+                                <div class="text-center">
+                                    <div class="rating">
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                    </div>
+                                    <p class="text-capitalize my-1">off white top</p>
+                                    <span class="fw-bold">Rs. 500</span>
+
+                                </div>
+                                <a href="#" class="btn btn-info" style="margin-left: 100px;">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" style="padding-top: 30px;">
+                        <div class="card" style="width: 20rem;">
+                            <img src="https://i5.walmartimages.com/asr/ee73f73a-757c-46c5-97e4-8903aab57407.16746b36399781c66082a66b46da0b0e.jpeg"
+                            style="height: 300px;"   alt="" class="card-img-top">
+                            <span
+                                class="position-absolute primary text-white d-flex align-items-center justify-content-center">sale</span>
+
+                            <div class="card-body">
+                                <div class="card-title"></div>
+                                <div class="text-center">
+                                    <div class="rating">
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                        <span class="text-primary"><i class=" fas fa-star"></i></span>
+                                    </div>
+                                    <p class="text-capitalize my-1">off white top</p>
+                                    <span class="fw-bold">Rs. 500</span>
+
+                                </div>
+                                <a href="#" class="btn btn-info" style="margin-left: 100px;">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+    </section>
+
+
+
+    <script src="/js/code.jquery.com_jquery-3.7.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>

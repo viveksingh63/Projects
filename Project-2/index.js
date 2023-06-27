@@ -55,11 +55,6 @@ const setDOB = () => {
     dateofbirth =dateString ? new Date(dateString):null;
     if (dateofbirth) {
 
-        localStorage.setItem('year',dateofbirth.getFullYear());
-        localStorage.setItem('month',dateofbirth.getMonth());
-        localStorage.setItem('day',dateofbirth.getDay());
-        localStorage.setItem('minute',dateofbirth.getMinute());
-        localStorage.setItem('second',dateofbirth.getSecond());
 
         initialtextEl.classList.add('hide');
         aftereffecrEl.classList.remove('hide');
