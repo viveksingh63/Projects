@@ -10,7 +10,7 @@
     };
 
     const containerEl = document.getElementById('container');
-    const searchInputEl=document.getElementById('searchInput');
+    const searchInputEl = document.getElementById('searchInput');
 
     const products = await fetchProducts();
     const generateProducts = (product) => {
@@ -20,7 +20,7 @@
 </div>
 <div class="des-container">
     <h2>${product.title}</h2>
-    <p>${product.description.split(" ").slice(0,20).join(" ")}</p>
+    <p>${product.description.split(" ").slice(0, 20).join(" ")}</p>
     <button type="button">${product.price} $</button>
 </div>
 </div>`
@@ -32,11 +32,20 @@
         })
     };
 
-    const filterHandler=(event)=>{
-const searchText=event.target.value.toLowerCase();
-    }
+    const filterHandler = (event) => {
+        const searchText = event.target.value.toLowerCase();
+        const filteredProducts = products.filter((product) => {
+            return product.title.toLowerCase().includes(searchText) ||
+             product.description.toLowerCase().includes(searchText) ||
+             product.price.toString().includes(searchText) ;
+             ;
+            ;
+        });
 
-searchInputEl.addEventListener('keyup',filterHandler);
+        renderProducts(filteredProducts);
+    };
+
+    searchInputEl.addEventListener('keyup', filterHandler);
 
     renderProducts(products);
 })();
